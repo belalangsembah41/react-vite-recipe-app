@@ -1,0 +1,17 @@
+@forward "../global";
+
+.category {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  gap: 10px;
+  overflow-x: hidden;
+
+  .cat-item {
+    background-color: #e2e2e2;
+    color: #202020;
+    padding: 5px 15px;
+    border-radius: 80px;
+  }
+}

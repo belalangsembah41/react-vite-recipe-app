@@ -1,0 +1,40 @@
+@forward "../global";
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 20px;
+  color: #fff;
+  background-color: #161616;
+
+  .footer-title {
+    width: 500px;
+
+    p {
+      margin-top: 10px;
+      font-size: 17px;
+    }
+  }
+
+  .footer-menu {
+    display: flex;
+    flex-direction: column;
+
+    .cat {
+      margin-top: 10px;
+      display: flex;
+      gap: 30px;
+
+      a {
+        color: #fff;
+      }
+    }
+  }
+
+  .footer-team {
+    p {
+      color: #fff;
+      margin-top: 10px !important;
+    }
+  }
+}

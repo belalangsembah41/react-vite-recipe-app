@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 20px;
+  color: #fff;
+  background-color: #161616;
+}
+footer .footer-title {
+  width: 500px;
+}
+footer .footer-title p {
+  margin-top: 10px;
+  font-size: 17px;
+}
+footer .footer-menu {
+  display: flex;
+  flex-direction: column;
+}
+footer .footer-menu .cat {
+  margin-top: 10px;
+  display: flex;
+  gap: 30px;
+}
+footer .footer-menu .cat a {
+  color: #fff;
+}
+footer .footer-team p {
+  color: #fff;
+  margin-top: 10px !important;
+}/*# sourceMappingURL=Footer.css.map */

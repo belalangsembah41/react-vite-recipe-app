@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.about-container {
+  width: 100%;
+  max-width: 1300px;
+  display: flex;
+  justify-content: space-between;
+  margin: 30px auto;
+  padding: 10px 20px;
+}
+.about-container .about-title {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.about-container .about-title h2 {
+  font-size: 40px;
+  line-height: 35px;
+}
+.about-container .about-title h2 .subtitle {
+  font-size: 30px;
+  color: #c6c929;
+}
+.about-container .about-title p {
+  font-size: 18px;
+}
+.about-container .about-title a {
+  display: inline;
+  font-size: 22px;
+  background-color: #404040;
+  padding: 10px 15px;
+  margin-top: 40px;
+  width: 200px;
+  text-align: center;
+  color: #fff;
+  border-radius: 10px;
+}
+.about-container .about-img {
+  width: 600px;
+}
+.about-container .about-img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+}/*# sourceMappingURL=AboutSection.css.map */

@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+nav {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+  z-index: 10;
+}
+nav .logo {
+  cursor: pointer;
+}
+nav .logo h4 {
+  font-size: 25px;
+  color: #111111;
+}
+nav .nav-list {
+  display: flex;
+  gap: 20px;
+}
+nav .nav-list .nav-link {
+  color: #111111;
+  font-size: 18px;
+  font-weight: 600;
+}/*# sourceMappingURL=Navbar.css.map */
